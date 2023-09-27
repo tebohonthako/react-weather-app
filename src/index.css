@@ -44,7 +44,14 @@ h1 {
 .app .search {
   text-align: center;
   padding: 1rem;
-
+  margin-bottom: 3rem;
+  
+}
+button {
+  border-radius: 1.7rem;
+  padding: 0.8rem;
+  margin-left: 1.5rem;
+  width: 10%;
 }
 .app input {
   padding: .7rem 1.5rem;
@@ -64,7 +71,7 @@ h1 {
   margin: auto;
   padding: 0 1rem;
   position: relative;
-  top: -10%;
+  top: -18%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,6 +80,7 @@ h1 {
 .app .top {
   width: 100%;
   margin: 1rem auto;
+  margin-top: 7rem;
 
 }
 .app .description {
