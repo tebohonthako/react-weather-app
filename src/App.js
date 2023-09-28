@@ -7,7 +7,7 @@ function App() {
   const [location, setLocation] = useState('')
   const [error, setError] = useState('');
 
-  const API_KEY = 'fc85c699f910ea9a4d22d0f56f4a0e20';
+  // const API_KEY = 'fc85c699f910ea9a4d22d0f56f4a0e20';
 
   const searchLocation = async () => {
     try {
@@ -37,7 +37,7 @@ function App() {
           placeholder="Enter Location"
           type="text"
         />
-        <button onClick={searchLocation}>Find</button>
+        <button onClick={searchLocation}>Search</button>
       </div>
       {error && <p className="error">{error}</p>}
       {data.main && (
