@@ -37,7 +37,7 @@ function App() {
           placeholder="Enter Location"
           type="text"
         />
-        <button onClick={searchLocation}>Search</button>
+        <button onClick={searchLocation}>🔍</button>
       </div>
       {error && <p className="error">{error}</p>}
       {data.main && (
