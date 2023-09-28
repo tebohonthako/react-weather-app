@@ -1,14 +1,25 @@
-import React, {useState} from 'react';
+//imports the necessary libraries, including React, useState for managing component state, 
+// and Axios for making HTTP requests.
+import React, {useState} from 'react'; 
 import axios from 'axios';
 
-
+// Three state variables are defined using the useState hook:
 function App() {
-  const [data, setData] = useState({})
-  const [location, setLocation] = useState('')
-  const [error, setError] = useState('');
+  const [data, setData] = useState({})                 //store the weather data retrieved from the API.
+  const [location, setLocation] = useState('')         //store the user's input for the location.
+  const [error, setError] = useState('');              //store any error messages.
 
   // const API_KEY = 'fc85c699f910ea9a4d22d0f56f4a0e20';
 
+
+  // This function is an asynchronous function that is called when the user clicks the "Search" button or 
+  // presses Enter after typing a location. 
+
+  // 1.     It makes an HTTP GET request to the OpenWeatherMap API with the user's specified location.
+  // 2.     If the request is successful, it updates the data state with the response data and clears any error messages.  
+  // 3.     If the request is successful, it updates the data state with the response data and clears any error messages. 
+  // 4.     If there is an error (e.g., if the location is not found), it sets an error message in the error state.
+  
   const searchLocation = async () => {
     try {
       const response = await axios.get(
@@ -37,7 +48,7 @@ function App() {
           placeholder="Enter Location"
           type="text"
         />
-        <button onClick={searchLocation}>🔍</button>
+        <button onClick={searchLocation}>Search</button>
       </div>
       {error && <p className="error">{error}</p>}
       {data.main && (

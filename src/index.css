@@ -47,17 +47,14 @@ h1 {
   margin-bottom: 3rem;
   
 }
-.search-button {
+button {
   border-radius: 1.7rem;
   padding: 0.9rem;
   margin-left: 1.5rem;
   width: 10%;
   font-weight: 700;
 }
-button .current-location-button {
-  border-radius: 4rem;
-  padding: 2rem;
-}
+
 .app input {
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
