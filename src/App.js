@@ -59,6 +59,7 @@ function App() {
             </div>
             <div className="temp">
               <h1>{Math.round(data.main.temp - 273.15)}°C</h1>
+              <h1>⛅</h1>
             </div>
             <div className="description">
               <p>{data.weather[0].main}</p>
