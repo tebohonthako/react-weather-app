@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Screenshot (113)](https://github.com/tebohonthako/react-weather-app/assets/110821589/a90b80f9-b882-44f2-99a0-ec59dc436f2c)
+![Screenshot (114)](https://github.com/tebohonthako/react-weather-app/assets/110821589/e6d483eb-72c3-463f-a359-9b3303a0d4ae)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
