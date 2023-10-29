@@ -81,7 +81,9 @@ function App() {
           </div>
         </div>
       )}
+       <h3>Coded with 💖 by Teboho Nthako.</h3>
     </div>
+    
   );
 }
 
